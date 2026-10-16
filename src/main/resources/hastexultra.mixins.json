@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.hastex.ultra.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientPlayerEntityMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
