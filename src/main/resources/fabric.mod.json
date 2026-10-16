@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hastexultra",
+  "version": "${version}",
+  "name": "Haste X Ultra",
+  "description": "Client-side configurable Auto Sprint for Minecraft 1.21.1.",
+  "authors": ["Haste X Ultra Project"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.hastex.ultra.HasteXUltraClient"] },
+  "mixins": ["hastexultra.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
